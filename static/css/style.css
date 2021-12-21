@@ -102,3 +102,26 @@ border: 2px solid #272829;
 box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
 border-radius: 50px;
 }
+.swiper {
+  margin-top: 40px;
+  width: 1005px;
+  height: 542px;
+}
+.swiper-slide{
+  color: white;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2E3134 0%, #292B2E 100%);
+border: 2px solid #272829;
+box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+border-radius: 50px;
+}
+#card2{
+  position: absolute;
+  width: 1117px;
+  height: 560px;
+  left: 240px;
+  top: 2551px;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2E3134 0%, #292B2E 100%);
+  border: 2px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  }
