@@ -36,7 +36,7 @@ top: 67px;
     transition: 0.3s;
   }
   
-  .navbar a i, .navbar a:focus i, btn {
+  .navbar a i, .navbar a:focus i {
     font-size: 15px;
     line-height: 0;
     margin-left: 5px;
@@ -48,7 +48,7 @@ top: 67px;
   .logo{
     padding-right: 20px;
   }
-  .btn{
+  .btn , .btn2 , .btn3{
     background: rgb(27, 22, 22);
     border: 2px solid #272829;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(82, 81, 81, 0.3) 0px 1px 3px -1px;
@@ -133,7 +133,7 @@ border-radius: 50px;
   width: 805px;
   height: 342px;
   }
-  .input{
+  .input, .input2{
     background: radial-gradient(38.2% 50% at 50% 50%, #2E3134 0%, #292B2E 100%);
     border: 2px solid #272829;
     box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
@@ -144,7 +144,7 @@ border-radius: 50px;
     color: white;
     position: relative;
   }
-  .input1{
+  .input1 , .input3{
     background: radial-gradient(38.2% 50% at 50% 50%, #2E3134 0%, #292B2E 100%);
     border: 2px solid #272829;
     box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
@@ -155,7 +155,7 @@ border-radius: 50px;
     margin-left: 300px;
     position: absolute;
   }
-  .social-links a {
+  .social-links a , .message1 {
     font-size: 18px;
     display: inline-block;
     color: #fff;
@@ -248,7 +248,107 @@ border-radius: 50px;
      margin-top: 60px;
      margin-left: 180px;
   }
-  @media only screen and (max-width: 600px) {
+  .img4{
+    padding-left: 56px;
+  }
+  #card3{
+    width: 1505px;
+    height: 102px;
+    margin-top: 2500px;
+  }
+  .hr{
+    color: white; 
+    width: 100%;
+     size: 1;
+  }
+  .hr1{
+    color: #9C69E2;
+     width: 100%;
+      size: 1;
+  }
+  @media screen and (max-width: 480px) {
+    .logo{
+      float: left;
+    }
+    
+    .img1{
+      width: 300px;
+      margin-top: 20px;
+    } 
+    .heading{
+      font-size: 36px;
+    }
+    .para{
+      font-size: small;
+    }
+    #card{
+      position: absolute;
+      width: 360px;
+      height: 750px;
+      left: 40px;
+      top: 1000px;
+     }
+     .img2{
+       width: 300px;
+     }
+     .heading1{
+       font-size: 36px;
+     }
+     .para1{
+       font-size: medium;
+     }
+    #card1{
+      position: absolute;
+      width: 360px;
+      height: 750px;
+      left: 40px;
+      top: 1790px;
+     }
+     .swiper{
+       width: 600px;
+     }
+     .img4{
+       padding-left: 20px;
+     }
+    #card2{
+      position: absolute;
+      width: 360px;
+      height: 700px;
+      left: 40px;
+      top: 2600px;
+     }
+     .img3 , .navbar{
+       display: none;
+     }
+     #card3{
+       margin-top: 100px;   
+     }
+     .hr{
+       margin-top: 55px;
+     }
+     .heading2 , .para2{
+      padding-left: 10px;
+    }
+    .input2{
+      float: left;
+    }
+    .input3{ 
+      margin-left: 1px;
+    }
+     .btn3{
+       display: none;
+     }
+     .input , .input1{
+       display: none;
+     }
+     .heading3{
+       margin-left: 20px;
+     }
+     .message{
+       display: none;
+     }
+  }
+  @media  (min-width : 481px) and (max-width: 767px) {
     #header{
       width: 300px;
     }
@@ -269,7 +369,7 @@ border-radius: 50px;
     width: 400px;
     height: 750px;
     left: 40px;
-    top: 1418px;
+    top: 1258px;
    } 
    .para1{
      font-size: medium;
@@ -279,7 +379,7 @@ border-radius: 50px;
     width: 400px;
     height: 750px;
     left: 40px;
-    top: 2258px;
+    top: 2058px;
    }
    .swiper{
      width: 700px;
@@ -289,12 +389,15 @@ border-radius: 50px;
     width: 400px;
     height: 700px;
     left: 40px;
-    top: 3100px;
+    top: 2850px;
    }
    #card3{
     left: 10px;
     top: 4018px;
    }
+   .heading2 , .para2{
+    padding-left: 10px;
+  }
    .img3{
      display: none;
    }
@@ -306,11 +409,25 @@ border-radius: 50px;
      margin-left: 10px;
    }
    .message{
-     margin-right: 400px;
-     float: left;
-   }
+    display: none;
   }
-  @media only screen and (min-width: 600px) {
+  .input , .input1{
+    display: none;
+  }
+  .btn3{
+    display: none;
+  }
+  }
+  @media (min-width: 768px) and (max-width : 1024px) {
+    .dropdown{
+      display: none;
+    }
+    .input2 , .input3{
+      display: none;
+    }
+    .btn2{
+      display: none;
+    }
     #card{
       position: absolute;
       width: 400px;
@@ -347,8 +464,14 @@ border-radius: 50px;
       font-size: 25px;
     }
   }
-  @media only screen and (min-width: 992px){
+  @media (min-width: 1025px) and (max-width : 2800px){
     .dropdown{
+      display: none;
+    }
+    .input2 , .input3{
+      display: none;
+    }
+    .btn2{
       display: none;
     }
     #card{
