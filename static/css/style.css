@@ -64,7 +64,7 @@ top: 67px;
     font-weight: bolder;
     font-size: 70px;
 }
-.para, .para1 , .para5{
+.para, .para1 {
     color: white;
     font-size: 24px;
     font-weight: lighter; 
@@ -288,6 +288,14 @@ border-radius: 50px;
       color: #30FBEF;
        padding-left: 30px;
         margin-top: 20px;
+  }
+  .para5{
+    padding-top: 20px;
+     padding-left: 30px;
+    line-height: 40px;
+    color: white;
+    font-size: 24px;
+    font-weight: lighter; 
   }
   @media screen and (max-width: 480px) {
     .logo{
